@@ -6,7 +6,8 @@
   {{#each burgers}}
   {{#unless devoured}}
     <li>
-      <p>{{burger_name}}</p>
+      {{burger_name}}
+      <button class="devour" data-id="{{id}}">Devour It!</button>
     </li>
   {{/unless}}
   {{/each}}
@@ -18,7 +19,7 @@
   {{#each burgers}}
   {{#if devoured}}
     <li>
-      <p>{{burger_name}}</p>
+      {{burger_name}}
     </li>
   {{/if}}
   {{/each}}
