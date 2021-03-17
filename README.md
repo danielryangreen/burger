@@ -10,6 +10,8 @@
   Deployed at [Heroku](https://dry-bastion-75967.herokuapp.com/).
 
   See the repo at [GitHub](https://github.com/danielryangreen/burger).
+
+  ![sample webpage](assets/EatDaBurger.png)
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
